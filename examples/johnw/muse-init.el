@@ -1,3 +1,24 @@
+;;; muse-init.el ---
+
+;; Copyright (C) 2004-2020 Free Software Foundation, Inc.
+
+;; This file is part of Emacs Muse.  It is not part of GNU Emacs.
+
+;; Emacs Muse is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published
+;; by the Free Software Foundation; either version 3, or (at your
+;; option) any later version.
+
+;; Emacs Muse is distributed in the hope that it will be useful, but
+;; WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Code:
+
 (require 'muse)
 (require 'muse-mode)
 (require 'muse-colors)
@@ -10,7 +31,7 @@
 
 (require 'muse-journal)
 (require 'muse-poem)
-(require 'muse-message)
+(require 'muse-message "experimental/muse-message")
 
 (require 'muse-http)
 
@@ -412,11 +433,11 @@
 
 ;;(setq
 ;; muse-cite-titles
-;; '(("Bah·'u'll·h"
-;;    ("Kit·b-i-Õq·n"
+;; '(("Bah√°'u'll√°h"
+;;    ("Kit√°b-i-√çq√°n"
 ;;     "http://bahai-library.com/?file=bahaullah_kitab_iqan.html"
 ;;     "http://bahai-library.com/?file=bahaullah_kitab_iqan.html#%d"))
-;;   ("`Abdu'l-Bah·"
+;;   ("`Abdu'l-Bah√°"
 ;;    ("Promulgation of Universal Peace"
 ;;     "http://bahai-library.com/?file=abdulbaha_promulgation_universal_peace.html"
 ;;     "http://www.bahai-library.com/writings/abdulbaha/pup/pup.html#%d"))))
